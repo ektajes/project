@@ -1,0 +1,302 @@
+.jumbotron{
+  background: url('./images/download\ \(1\).jpeg');
+ position:relative;
+  color:#fff;
+}
+.jumbotron-main{
+  padding: 0 60px 40px 60px;
+}
+
+.jumbotron-main h1{
+  margin-top:60px;
+  margin-bottom:30px;
+}
+.jumbotron-main h5{
+  margin-top:60px;
+  margin-bottom:20px;
+}
+.jumbotron-main p{
+  margin-bottom:50px;
+}
+
+.navbar.navbar-inverse{
+  background:#333;
+  color:#fff;
+  /*margin:0;*/
+top:0;
+left:0;
+}
+
+.navbar.navbar.navbar-inverse a{
+  color:#fff;
+margin-bottom: 3px;
+}
+
+h5{
+  color: blue;
+}
+
+  .image{
+    display: flex;
+    align-items:right;
+
+    
+    position: absolute;
+    left: 70px;
+  }
+
+  span{
+    display: flex;
+justify-content:center;
+  }
+
+  .themes b{
+font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .themes p{
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-top:-5px;
+  }
+
+  .section-heading{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color: blue;
+    font-weight:bold;
+  }
+
+  .section-heading h5, 
+  .section-heading h2{
+    font-weight:bold;
+  }
+  .section-heading h2{
+    color: #000;
+  }
+  .features .col-md-3{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+text-align:center;
+  }
+
+  .features .glyphicon{
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 20px;
+  border: 1px solid gray;
+border-radius: 50%;
+padding: 15px;  }
+.device{
+  padding: 30px;
+}
+.device .mobilestyle{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  justify-content: center;
+}
+.device .section-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  justify-content: center;
+  font-weight: bold;
+}
+.section-header h5{
+  font-weight:bold;
+}
+.section-header .dash{
+  color: blue;
+  font-weight:bold;
+}
+.mobilestyle .glyphicon{
+  color: blue;
+  margin-right: 10px;
+}
+.mobilestyle li{
+
+  margin-bottom: 10px;
+}
+
+.image1{
+  width:100%;
+  background: lightgray;
+}
+
+.col-md-6.imagei{
+  background: url('./images/mobile1\ as\ Smart\ Object-2-0.jpg') center center/cover;
+  z-index: 1;
+  
+ 
+}
+.imagei{
+  width:100%;
+}
+.panel {
+  padding: 50px;
+  background: lightgray;
+
+}
+
+.person img{
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.section3 {
+  background: url('./images/background.jpeg') no-repeat center center/cover;
+  color: #fff;
+  padding: 50px;
+}
+
+.section3 p{
+  margin-bottom: 30px;
+}
+
+.section3 h2,h3,h4,h5{
+  color: #fff;
+}
+.section-footer{
+  height: 70px;
+  background: #222;
+  color:#fff;
+ 
+}
+.details{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items:center;
+  margin-top: 80px;
+}
+.device2{
+  padding: 30px;
+}
+
+.device{
+  padding: 50px;
+  margin-top: 30px;
+}
+.pricing{
+  padding:50px;
+}
+
+.pricing .price{
+  display:flex;
+  flex-direction:column;
+border: 1px solid gray;
+padding: 30px;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.price .blue{
+  color: blue;
+}
+
+.pricing .col-md-3 .price >*{
+  border-bottom: 1px solid #999;
+  padding: 20px;
+  
+}
+.pricing .price >*:last-child{
+  border-bottom:none;
+}
+
+.pricing .section-heading h5{
+  color: blue;
+}
+
+.pricing .price {
+  width: 100%;
+}
+.pricing .price >*{
+  width: 130%;
+  border-bottom: 1px solid #999;
+}
+
+.price .btn{
+  margin-top: 30px;
+  color:blue;
+  font-weight: bold;
+
+}
+
+.contact{
+  padding: 100px;
+  background: #999;
+}
+
+.contact .col-md-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact .col-md-4 .glyphicon{
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  height: 100px;
+  background:#111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.social-icons{
+  margin-bottom: 10px;
+  color:#888;
+
+}
+.footer .social-icons>*{
+  margin-right: 30px;
+}
+
+.footer p{
+  color:#888;
+}
+.form .col-md-6{
+  margin-top:20px;
+}
+.form .container{
+  z-index:100;
+  max-width: 600px;
+  height: 100px;
+  margin-bottom: -20px;
+
+  margin-top: -100px;
+  margin-bottom: -100px;
+  background: #111;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.maps{
+  z-index:20;
+  margin-top: 100px;
+}
